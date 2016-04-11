@@ -1,9 +1,5 @@
 #include <stdio.h>
 
-
-
-
-
 int main(void) {
 
   int arr[3] = {5, 10, 15};
@@ -14,7 +10,7 @@ int main(void) {
     ptr++;
   }
 
-  for (ptr = arr, i=0; i < 4; i++){
+  for (ptr = arr, i=0; i < 3; i++){
     *(ptr + i) = '\0';
   }
 
